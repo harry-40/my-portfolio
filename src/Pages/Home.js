@@ -9,7 +9,7 @@ import Skills from "../Components/Skills";
 
 function Home() {
     return (
-      <div className="bg-black">
+      <div className="bg-black w-full h-full max-w-full">
           <Navbar/>
           <Header/>
           

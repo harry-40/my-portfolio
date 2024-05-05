@@ -3,7 +3,7 @@ const ContactForm = () => {
 
 
   return (
-    <form  className="w-15 ml-16 mr-16  bg-black p-12 rounded-lg shadow-md text-white">
+    <form  className="w-15 ml-16 mr-16   p-12 rounded-lg shadow-md text-white">
       
       <h1 className='text-4xl py-3'> Contact me</h1>
       

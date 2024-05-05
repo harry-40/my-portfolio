@@ -2,11 +2,15 @@
 
 import home from '../config/home.png';
 import data from '../config/data';
+import { useNavigate } from 'react-router-dom';
+
  
   const Home = () => {
+    const navigate=useNavigate();
+    
     return (
        
-      <div id="home" className="w-full max-w-full   bg-black z-10">
+      <div id="home" className="w-full max-w-full    z-10">
         <div className="relative md:flex flex-row justify-between md:pt-40   pt-24 px-1 md:px-16 max-w-8xl mx-auto">
           <div className="max-w-[950px] px-4 flex flex-col justify-center mb-14 ml-10  ">
             <p className="text-white text-2xl font-bold  ml-1 ">
